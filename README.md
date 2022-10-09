@@ -3,10 +3,10 @@
 
 <div align="center">
 
-[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/kishanrajput23/Hacktoberfest-2022)
+[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/sanskarsri/devmerge)
 <img src="https://img.shields.io/badge/HacktoberFest-2022-blueviolet" alt="Hacktober Badge"/>
 <img src="https://img.shields.io/static/v1?label=%E2%AD%90&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
-<a href="https://github.com/kishanrajput23" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" /></a>
+<a href="https://github.com/sanskarsri" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" /></a>
 
 </div>
 
@@ -46,7 +46,7 @@ Star the repository by pressing the topmost-right button to start your wonderful
 
 ### 1. Fork it :fork_and_knife:
 
-You can get your own fork/copy of [HacktoberFest-2022](https://github.com/kishanrajput23/Hacktoberfest-2022) by using the <a href="https://github.com/kishanrajput23/Hacktoberfest-2022/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button.
+You can get your own fork/copy of [devmerge](https://github.com/sanskarsri/devmerge) by using the <a href="https://github.com/sanskarsri/devmerge/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button.
 
 
 ### 2. Clone it :busts_in_silhouette:
@@ -56,16 +56,16 @@ You can get your own fork/copy of [HacktoberFest-2022](https://github.com/kishan
 You need to clone or (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Your_Username/Hacktoberfest-2022.git
+$ git clone https://github.com/Your_Username/devmerge.git
 ```
 
 > This makes a local copy of the repository in your machine.
 
-Once you have cloned the `Hacktoberfest-2022` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
+Once you have cloned the `devmerge` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
 
 ```sh
-# This will change directory to a folder Hacktoberfest-2022
-$ cd Hacktoberfest-2022
+# This will change directory to a folder devmerge
+$ cd devmerge
 ```
 
 Move to this folder for all other commands.
@@ -76,14 +76,14 @@ Run the following commands to see that *your local copy* has a reference to *you
 
 ```sh
 $ git remote -v
-origin  https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
-origin  https://github.com/Your_Username/Hacktoberfest-2022.git (push)
+origin  https://github.com/Your_Username/devmerge.git (fetch)
+origin  https://github.com/Your_Username/devmerge.git (push)
 ```
 
-Now, let's add a reference to the original [Hacktoberfest-2022](https://github.com/kishanrajput23/Hacktoberfest-2022/) repository using
+Now, let's add a reference to the original [devmerge](https://github.com/sanskarsri/devmerge/) repository using
 
 ```sh
-$ git remote add upstream https://github.com/kishanrajput23/Hacktoberfest-2022.git
+$ git remote add upstream https://github.com/sanskarsri/devmerge.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -92,18 +92,18 @@ See the changes using
 
 ```sh
 $ git remote -v
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (push)
-upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (fetch)
-upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (push)
+origin    https://github.com/Your_Username/devmerge.git (fetch)
+origin    https://github.com/Your_Username/devmerge.git (push)
+upstream  https://github.com/Remote_Username/devmerge.git (fetch)
+upstream  https://github.com/Remote_Username/devmerge.git (push)
 ```
 `In your case, you will see`
 ```sh
 $ git remote -V
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (push)
-upstream  https://github.com/kishanrajput23/Hacktoberfest-2022.git (fetch)
-upstream  https://github.com/kishanrajput23/Hacktoberfest-2022.git (push)
+origin    https://github.com/Your_Username/devmerge.git (fetch)
+origin    https://github.com/Your_Username/devmerge.git (push)
+upstream  https://github.com/sanskarsri/devmerge.git (fetch)
+upstream  https://github.com/sanskarsri/devmerge.git (push)
 ```
 
 ### 4. Sync it :recycle:
@@ -127,7 +127,7 @@ $ git push origin main
 
 ### 5. Ready Steady Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/kishanrajput23/Hacktoberfest-2022/pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/sanskarsri/devmerge/pulls).
 
 ### 6. Create a new branch :bangbang:
 
@@ -180,8 +180,8 @@ Please discuss it with us first by creating a new issue.
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
 
 ## Our Contributors : 
-<a href="https://github.com/sanskarsri/Hacktoberfest22/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sanskarsri/Hacktoberfest22" />
+<a href="https://github.com/sanskarsri/devmerge/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sanskarsri/devmerge" />
 </a>
 
 ## Maintainer of this project:  [Sanskarsri](https://www.linkedin.com/in/sanskarsrivastava/)
