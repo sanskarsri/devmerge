@@ -151,10 +151,6 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 38px;
-  
-*{
-    margin: 0;
-    padding: 0;
 }
 header{
     height: 100vh;
