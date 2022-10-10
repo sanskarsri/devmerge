@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headRow {
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    align-items: center;
+    box-shadow: 0px 3px 5px 2px lightgray;
+    display: flex;
+}
+
+.head{
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    flex: 4;
+}
+
+.userControls {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userName {
+    display: inline-block;
+    width: 80px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 40px;
+}
+
+.actionBtn {
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: rgba(80, 97, 222, 0.564);
+}
+
+.actionBtn:hover, button:focus-visible{
+    outline: none;
+    border: 3px solid #0269c2bf;
+}
+
+a.logoBtn {
+    text-decoration: none;
+    color: initial;
+}
+
+.optionsMenu{
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 5;
+    width: 20%;
+}
+.optionsList{
+    list-style: none;
+}
+.optionsList > li {
+    border: 1px solid;
+    background: whitesmoke;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.optionsList > li:hover {
+    background-color: orange;
+    color: white;
+}
+.userName:hover .optionsMenu{
+    display: block;
+}
