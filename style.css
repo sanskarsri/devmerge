@@ -60,3 +60,25 @@ footer{
     align-items: center;
     font-size: 38px;
 }
+.projects{
+    width: 100vw;
+    min-height: 60vh;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-btn{
+    align-items: center;
+    background-color: #262626;
+    padding: 20px;
+    /* width: 100px; */
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
