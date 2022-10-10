@@ -13,7 +13,7 @@ prods.forEach((elem,index)=>{
     div2.classList.add('details')
 
     let div3 = document.createElement('div')
-    div3.innerHTML= `<a href="#" class="removeBtn"><button class="btn">Remove</button></a>`
+    div3.innerHTML= `<a href="#" class="checkoutBtn"><button class="btn">Checkout</button></a><a href="#" class="removeBtn"><button class="btn">Remove</button></a>`
     div3.classList.add('action')
 
     let adiv = document.createElement('div')
