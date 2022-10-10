@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -24,7 +23,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     line-height: 70px;
 }
 
@@ -95,11 +94,9 @@ nav #icon {
 
 
 header{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(rgba(0,0,0),#262626);
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: linear-gradient(#000000,#262626);
     color:#fff;
 }
 .about{
