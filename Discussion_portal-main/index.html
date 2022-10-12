@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Discussion App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h2 class="appHeader">Discussion App</h2>
+    </header>
+    <div class="container">
+      <div class="leftPane">
+        <div class="leftPaneHeader">
+          <button class="button">New Question Form</button>
+          <input class="input" id="search" placeholder="search question"/>
+        </div>
+        <div  id = "questionContainer"  class="questionContainer">
+        
+        </div>
+      </div>
+      <div class="rightPan">
+        <div class="createQuestionContainer" id="createQuestionContainer">
+          <h1>Welcome to Discussion App</h1>
+          <h4>Enter a Subject and question to get started</h4>
+          <input  id="subjectArea" class="input" placeholder="Subject"/>
+          <br/>
+          <textarea id="questionArea" rows="10" class="input" placeholder="Question"></textarea>
+          <br/>
+          <button id="submitBtn" class="button">Submit</button>
+        </div>
+
+
+        <div id="show_query"  class="show_query">
+          <div id="detail">
+              <h2>Question</h2>
+              <div>
+                  <h2 id="show_title"></h2>
+                  <p id="show_desc"></p>
+              </div>
+              <button id="resolve">Resolve</button>
+          </div>
+         
+          <div id="response">
+              <h2>Response</h2>
+              <div id="show">
+                  <!-- <h2 id="show_name"></h2>
+                  <p id="show_comment"></p> -->
+              </div>
+          </div>
+
+          <div id="answer">
+              <h1>Add Response</h1>
+                  <input type="text" id="res_name" placeholder="Enter Name" required> 
+           
+                  <br/>
+           
+          <textarea id = "comment" placeholder="Enter comment" rows="6" required></textarea> 
+        
+          <br/>  
+         
+          <button   class="button"  id="done" >Submit</button>
+          </div>
+      </div>
+      </div>
+
+
+    </div>
+  </body>
+  <script src="script.js">
+
+  </script>
+</html>
