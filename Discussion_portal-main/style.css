@@ -1,0 +1,142 @@
+header
+{
+  height: 60px;
+  background: darkcyan;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+body
+{
+  margin: 0px;
+  height: 100%;
+}
+
+
+.appHeader
+{
+  color: white;
+  margin-left: 6px;
+}
+
+.container
+{
+  display: flex;
+  height: 100%;
+}
+
+.leftPane
+{
+  flex: 1;
+  height: 100%;
+  border-right: 1px grey solid;
+  border-bottom: 1px grey solid;
+  
+}
+
+.rightPan
+{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.leftPaneHeader
+{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px grey solid;
+  height: 50px;
+}
+
+.button
+{
+  background: blue;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.input
+{
+  border: 0.2px solid grey;
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+
+.questionContainer
+{
+  background: lightgrey;
+  height: calc(100% - 80px);
+  overflow:scroll;
+}
+
+.createQuestionContainer
+{
+  
+  width: 80%;
+}
+
+.createQuestionContainer > input
+{
+  margin-bottom: 10px;
+}
+
+.createQuestionContainer > textarea
+{
+  width: 100%;
+}
+
+.createQuestionContainer > button
+{
+  float: right;
+  margin-top: 10px;
+}
+
+
+.unitQuestionContainer{
+  line-height: 0.2em;
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.show_query
+{
+  /* display: flex; */
+  flex-direction: column;
+  width: 80%;
+  display: none;
+}
+
+ #answer > input
+{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+ #answer > textarea
+{
+  width: 100%;
+  
+}
+
+#answer > button
+{
+  float: right;
+  margin-top: 10px;
+  
+ 
+}
+
+
+.unitResponse{
+
+  background-color: rgb(149, 148, 148);
+}
