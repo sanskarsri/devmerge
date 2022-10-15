@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Merriweather Sans", "sans-serif";
+    color: #4c6986;
+}
+
+.title {
+    max-width: 550px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    height: 700px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.restart {
+    background-color: pink;
+    display: flex;
+    width: 175px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid #4c6986;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.restart:hover {
+    background-color: #4c6986;
+    color: pink;
+    border: 3px solid pink;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.left {
+    margin: 0 auto;
+}
+
+.right {
+    margin: 0 auto;
+}
+
+.game {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    color: #9A9A9A;
+    font-size: 20px;
+}
+
+.header .player-X {
+    flex: 1;
+    border-bottom: 4px solid rgb(224, 224, 224);
+    padding-bottom: 10px;
+}
+
+.header .player-O {
+    flex: 1;
+    border-bottom: 4px solid rgb(224, 224, 224);
+    padding-bottom: 10px;
+}
+
+.player-X.active {
+    color: #42bed7;
+    border-color: #42bed7;
+}
+
+.player-O.active {
+    color: #9d6fd6;
+    border-color: #9d6fd6;
+}
+
+.board {
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.board-tile {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.board-tile:not(:nth-child(3n)) {
+    border-right: 3px solid rgb(90, 118, 174);
+}
+
+.board-tile:not(:nth-last-child(-n+3)) {
+    border-bottom: 3px solid rgb(90, 118, 174);
+}
+
+.board-tile:hover {
+    background-color: #eee;
+    ;
+}
+
+.tile-x {
+    color: #42bed7;
+}
+
+.tile-o {
+    color: #9d6fd6;
+}
+
+.tile-winner span{
+    color: #23CE6B;
+}
+
+@media only screen and (max-width: 950px) {
+    .wrapper {
+        flex-direction : column;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
+}
