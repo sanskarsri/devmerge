@@ -3,70 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Split Screen</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sample To Do</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <h1>WELCOME TO NEW DESIGN</h1>
-    </header>
-    <section class="about">
-        <div class="about-title">
-            <h2>ABOUT ME</h2>
-        </div>
-        <div class="about-pages">
-            <div>
-                <h2>PANEL 1</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatum doloribus impedit
-                    perferendis eius voluptatem dolorum, tempore minus, sapiente debitis sunt vero beatae! Corporis
-                    quibusdam, quasi tempora eum totam incidunt voluptates, provident voluptatum adipisci debitis hic
-                    magnam earum natus maiores ducimus ex cum. Perferendis est suscipit eius fuga natus velit aliquid
-                    quod excepturi reiciendis animi, dolore et molestias laudantium nihil?</p>
-            </div>
-            <div>
-                <h2>PANEL 2</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatum doloribus impedit
-                    perferendis eius voluptatem dolorum, tempore minus, sapiente debitis sunt vero beatae! Corporis
-                    quibusdam, quasi tempora eum totam incidunt voluptates, provident voluptatum adipisci debitis hic
-                    magnam earum natus maiores ducimus ex cum. Perferendis est suscipit eius fuga natus velit aliquid
-                    quod excepturi reiciendis animi, dolore et molestias laudantium nihil?</p>
-            </div>
-            <div>
-                <h2>PANEL 3</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatum doloribus impedit
-                    perferendis eius voluptatem dolorum, tempore minus, sapiente debitis sunt vero beatae! Corporis
-                    quibusdam, quasi tempora eum totam incidunt voluptates, provident voluptatum adipisci debitis hic
-                    magnam earum natus maiores ducimus ex cum. Perferendis est suscipit eius fuga natus velit aliquid
-                    quod excepturi reiciendis animi, dolore et molestias laudantium nihil?</p>
-            </div>
-        </div>
-    </section>
-    <section style="background-color: cadetblue;">
-        <h1 style="text-align:center; padding-top: 40px;"> PROJECTS</h1>
-        <div class="projects">
-            <a href="color-flipper/index.html"><p class="project-btn" >color-flipper</p></a>
-            <a href="Notes-app/index.html" target = "_blank"><p class="project-btn">NOTES-APP</p></a>
+    <div class="row">
+    <div class="column list-column">
+        <h4>ToDos</h4>
+    <div id="taskContainer">
 
-            <a href="cart/index.html"><p class="project-btn">View Orders</p></a>
-            <a href="ICONS/index.html"><p class="project-btn">ICONS</p></a>
-             <a href="Discussion_portal-main/index.html"><p class="project-btn">DISCUSSION_PORTAL</p></a>
-             <a href="TYPE GAME/index.html"><p class="project-btn">TYPE GAME</p></a
-             <a href="PUBG-master/index.html"><p class="project-btn">PUBG Home Page</p></a>
-             <a href="Blog-Website-main/index.html"><p class="project-btn">Blog Website page</p></a>
-             <a href="Tic_tac_toe-main/index.html"><p class="project-btn">Tic Tac Toe</p></a>
-            <a href="Web-D-master/index.html"><p class="project-btn">master pageu</p></a>
+    </div>
+    </div>
+    <div class="column input-cloumn">
+    <div id="inputControls">
+        <input type="text" id="input" class="user-input" placeholder="I want to....">
+        <input type="button" class="btn btn-sm btn-primary" id="submit" value="Add Task">
+    </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- <span id="close">&times;</span> -->
+                <div class="modal-header">
+                    <h5>Update ToDo</h5>
+                </div>
+                <div class="modal-body md-body" >
+                <input type="text" id="newInput" class="user-input form-control" placeholder="Enter the new info..."></div>
+                <div class="modal-footer">
+                <input class="btn btn-sm btn-primary" type="button" id="update" value="Update">
+                <input class="btn btn-danger btn-sm" type="button" id="close" value="Close">
+                <input type="hidden" id="currObj" value=""></div>
+            </div>
+
         </div>
-    </section>
-    <footer style="flex-direction: column;">
-        PREEty cool?
-        <span><a href="flip-cards/index.html" style="text-decoration: none;color: teal">Check this</a></span>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-    <script src="app.js"></script>
+    </div>
+
 
 </body>
+<script src="script.js"></script>
+<script src="dialogControl.js"></script>
 
 </html>
