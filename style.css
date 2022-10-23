@@ -1,90 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reenie+Beanie&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5); 
+    background: black
+}
+.navbar .navbar-brand{
+   font-size: 25px;
+   font-weight: 800;
+   color: #06fae6 !important;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #05fce7 ;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(223, 226, 221, 0.582),rgba(0,0,0,.4)),url(homeimgg.jpg);
+    background-size: cover;
+    background-position: center;
+}         
+.container{
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.course{
+    background-color: rgba(252, 251, 247, 0.664);
+    padding: 50px;
+    border-radius: 1px;
+    box-shadow:   inset   12px 12px 12px #ffffff,
+                       12px 12px 12px rgba(0, 0, 0, 0.411);
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    background-blend-mode: color-dodge;
+}
+button{
+    height: 48px;
+    width: 200px;
+    background-color: #000000;
+    box-shadow: inset 5px 5px 5px #ffffff44,
+                       5px 5px 5px rgba(12, 12, 12, 0.281);
+    border: none;
+    border-radius: 1px;
+    font-size:16px;
+    color:black;
+
+  
+}
+#dropdownMenuButton2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(6, 146, 134, 0.767);
+    font-weight:600;
+    border: none;
+    border-radius: 1px;
+    text-shadow: black;
+    margin-top: 15px;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+<style>
+.snote{
+max-width:100%;
+background-color:#666;
+}
+
+.snote h2,p{
+  font-size:100%;
+  font-weight:normal;
+  font-family: 'Reenie Beanie';
+}
+
+.snote ul,li{
+  list-style:none;
+}
+
+.snote ul{
+  overflow:hidden;
+  padding:3em;
+}
+
+.snote ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:14em;
+  width:12em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -webkit-transform:rotate(2deg);
+  -o-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+
+.snote ul li:nth-child(even) a{
+  -o-transform:rotate(-4deg);
+  -webkit-transform:rotate(-4deg);
+  -moz-transform:rotate(-4deg);
+   position:relative;
+  top:5px;
+  background:rgba(190, 146, 211, 0.904);
+}
+
+.snote ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:rgb(175, 148, 211);
+}
+
+.snote ul li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+  background:#bb7edffd;
+}
+
+.snote ul li a:hover,ul li a:focus{
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+
+.snote ul li{
+  margin:1em;
+  float:left;
+}
+
+.snote ul li h2{
+  font-size:160%;
+  font-weight:bold;
+  padding-bottom:0px;
+  font-family: 'Reenie Beanie';
+  text-align:center;
+  color:#000;
+}
+
+.snote ul li p{
+  font-family: 'Reenie Beanie';
+  font-size:200%;
+  color:#000;
+  font-weight: bold;
+}
+</style>
+<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+<style>
+.snote1{
+max-width:100%;
+background-color:#666;
+}
+
+.snote1 h2,p{
+  font-size:100%;
+  font-weight:normal;
+}
+
+.snote1 ul,li{
+  list-style:none;
+}
+
+.snote1 ul{
+  overflow:hidden;
+  padding:3em;
+}
+
+.snote1 ul li a{
+  text-decoration:none;
+  color:#000;
+  background:rgba(230, 161, 226, 0.945);
+  display:block;
+  height:14em;
+  width:12em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -webkit-transform:rotate(-6deg);
+  -o-transform:rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+
+.snote1 ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+   position: left;
+  top:5px;
+  background:#cfc;
+}
+
+.snote1 ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:rgb(248, 124, 232);
+}
+
+.snote1 ul li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+  background:rgb(242, 158, 245)255, 204, 232);
+}
+
+.snote1 ul li a:hover,ul li a:focus{
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+
+.snote1 ul li{
+  margin:1em;
+  float:left;
+}
+
+.snote1 ul li h2{
+  font-size:200%;
+  font-weight:bold;
+  padding-bottom:0px;
+  font-family: 'Reenie Beanie';
+  text-align:center;
+  color:#000;
+}
+
+.snote1 ul li p{
+  font-family: 'Reenie Beanie';
+  font-size:200%;
+  font-weight: bold;
+  color:#000;
+  text-align: center;
+}
+</style>
+
+html{ 
+      scroll-behavior: smooth;  
 }
 body{
-    overflow-x:hidden;
+     margin: 0;
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(rgba(0,0,0),#262626);
-    color:#fff;
+#notes{
+       height:700px;
+       background: rgb(151, 235, 235);
+       display:inline block;
+       width:100%;
+       background: linear-gradient(rgba(223, 226, 221, 0.582),rgba(0,0,0,.5));
 }
-.about{
-    z-index: 1;
-    height:300vh;
-    display: flex;
+
+#text{
+  height:700px;
+  background: rgb(204, 218, 221);
+  display:inline block;
+  width:100%;
+  background: linear-gradient(rgba(223, 226, 221, 0.582),rgba(0,0,0,.5));
 }
-.about-title{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 38px;
-    margin: 0!important;
+#paper{
+  height:700px;
+  background: rgb(134, 185, 183);
+  display:inline block;
+  width:100%;
+  background: linear-gradient(rgba(223, 226, 221, 0.582),rgba(0,0,0,.5));
 }
-.about-pages{
-    width:50%;
-    color:#fff;
+div {
+  position: relative;
+  overflow: hidden;
 }
-.about-pages div{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+input {
+  position: absolute;
+  font-size: 50px;
+  opacity: 50%;
+  right: 0;
+  top: 0;
 }
-.about-pages div>p{
-    width: 80%;
-    font-size: 19px;
-    line-height: 30px;
+#upload{
+  position:relative;
+  background-color: #0ac496;
+  top: 500px;
+  left: 20px;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  
 }
-.about-pages div:nth-child(1)
-{
-    background: purple;
-}
-.about-pages div:nth-child(2)
-{
-    background: green;
-}
-.about-pages div:nth-child(3)
-{
-    background: sandybrown;
-}
-footer{
-    z-index: 3;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 38px;
-}
-.projects{
-    width: 100vw;
-    min-height: 60vh;
-    height: auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-    gap: 10px;
-    flex-wrap: wrap;
-}
-.project-btn{
-    align-items: center;
-    background-color: #262626;
-    padding: 20px;
-    /* width: 100px; */
-    font-size: 25px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
+
+
+
