@@ -1,0 +1,63 @@
+.navbar{
+    background-color: rgb(197, 6, 6);
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+.navbar li{
+    display:inline-block;
+    padding: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+}
+
+.banner{
+    background-color: #4d00ff;
+    color: white;
+    margin-top: 50px;
+    text-align:center;
+    padding: 100px 0;
+}
+
+#small-gritty{
+    height:100px;
+    width:100px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.gritter-section{
+    padding: 20px 50px;
+}
+#gritter
+{
+    color: #4d00ff;
+    font-size: 100px;
+}
+
+
+#greets ul{
+    list-style-type:none;
+}
+
+.avatar{
+    background-image: url('../images/gritty.PNG');
+    background-size: cover;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bold
+{
+    font-weight: 900;
+}
+
+a.blue{
+    color: blue;
+}
